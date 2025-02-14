@@ -11,6 +11,7 @@ export default defineConfig({
   server: {
     mimeTypes: {
       "jsx": "application/javascript" // Ensures proper MIME type
-    }
+    },
+    open: true,
   }
 })
