@@ -1,19 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="logo">
-          <img src="/dr_logo.png" alt="Desync Games" />
-        </div>
+        <Link to="/" className="logo">
+          <img src="./dr_logo.png" alt="Desync Games" />
+        </Link>
         <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#servers">Servers</a></li>
-          <li><a href="#about">About</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/servers">Servers</Link></li>
+          <li><Link to="/about">About</Link></li>
           <li>
             <a 
-              href="https://discord.gg/your-invite-code" 
+              href="https://discord.gg/g2nnmWzgj5" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="discord-link"
