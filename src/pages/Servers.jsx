@@ -41,7 +41,6 @@ const Servers = () => {
         "Arma Reforger",
         "Discord Account",
         "Microphone Required",
-        "Teamspeak (Optional)"
       ]
     }
   ]

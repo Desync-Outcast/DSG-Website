@@ -6,10 +6,11 @@ import ServerCard from './components/ServerCard'
 import Footer from './components/Footer'
 import VideoBackground from './components/VideoBackground'
 import Servers from './pages/Servers'
+import About from './pages/About'
 
 function App() {
   return (
-    <Router basename="/DSG-Website">
+    <Router basename="/">
       <div className="app">
         <Navbar />
         <Routes>
@@ -36,6 +37,7 @@ function App() {
             </>
           } />
           <Route path="/servers" element={<Servers />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>
